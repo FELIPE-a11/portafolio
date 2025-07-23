@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>MiPortafolio</span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                
+                <!-- Mobile Menu Button -->
+                <div class="nav-buttons">
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hola, soy <span>ANDRES FELIPE SOTO BOLADO</span></h1>
+                <p>Desarrollador web full-stack apasionado por crear soluciones digitales innovadoras y eficientes.</p>
+                <div class="hero-cta">
+                    <a href="#contacto" class="btn btn-primary">Contáctame</a>
+                    <a href="#proyectos" class="btn btn-outline">Ver proyectos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/fotos/113442806268655a56e0a0b3.303745940.920079001751472726.jpeg" alt="Foto profesional de [Tu Nombre] con traje y corbata en un entorno corporativo moderno">
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="sobre-mi">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre mí</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/fotos/f79b18a5-2263-4ab8-be2f-8461fbe5d52e.png" alt="[Tu nombre] trabajando con un equipo en una oficina moderna con tecnología">
+                </div>
+                <div class="about-text">
+                    <h3>¿Quién soy?</h3>
+                    <p>Hola, soy Felipe Soto, desarrollador  de experiencia creando soluciones web modernas, eficientes y centradas en el usuario. Mi enfoque se basa en la pasión por el aprendizaje constante y la innovación tecnológica.</p>
+                    <p>Mi experiencia abarca desde el desarrollo  y Vue hasta la construcción  HTML,CSS Y JAvaScript y la construcción de APIs robustas con Node.js y bases de datos SQL/NoSQL.</p>
+                    <p>Cuando no estoy programando, me gusta aprender sobre nuevas tecnologías, contribuir a proyectos open source y participar en hackathones.</p>
+                    
+                    <div class="about-skills">
+                        <div class="skill-chip">JavaScript</div>
+                        <div class="skill-chip">CSS</div>
+                        <div class="skill-chip">HTML</HTML></div>
+                        <div class="skill-chip">PSI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="skills" id="habilidades">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mis habilidades</h2>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Frontend Skills -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML5</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Express</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>API REST</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Otras Habilidades -->
+                <div class="skill-card">
+                    <h3><i class="fas fa-tools"></i> Otras</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Docker</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>UI/UX</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Testing</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="proyectos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mis proyectos</h2>
+            </div>
+            
+            <div class="projects-container">
+                <div class="projects-carousel" id="projectsCarousel">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/fotos/logo.jpeg" alt="Interfaz de aplicación de e-commerce con diseño moderno y productos mostrados">
+                            <div class="project-links">
+                                <a href="https://super-sprite-2eb861.netlify.app" title="Ver demo"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/Arleyrozo27/Proyecto-Banco-js" title="Ver código"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>banco Online</h3>
+                            <p>Aplicación de e-commerce completa con carrito de compras, autenticación y pasarela de pago.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">html</span>
+                                <span class="project-tag">js</span>
+                                <span class="project-tag">css</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/fotos/Captura desde 2025-07-23 16-02-22.png"alt="Dashboard administrativo con gráficos y métricas de negocio">
+                            <div class="project-links">
+                                <a href="https://cozy-marzipan-7abce6.netlify.app/" title="Ver demo"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/FELIPE-a11/proyecto_pagina_wed/tree/proyecto" title="Ver código"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>tienda de  relojes</h3>
+                            <p>Sistema de visualización de datos de relojes y exportación de rolex</p>
+                            <div class="project-tags">
+                                <span class="project-tag">css</span>
+                                <span class="project-tag">html</span>
+            
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/fotos/Captura desde 2025-07-23 16-15-03.png" alt="Aplicación móvil de redes sociales con perfil de usuario y feed de publicaciones">
+                            <div class="project-links">
+                                <a href="https://courageous-piroshki-5a069a.netlify.app/" title="Ver demo"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/FELIPE-a11/-Soporte-T-cnico-de-Tel-fonos" title="Ver código"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>chad bot</h3>
+                            <p>Plataforma de conexión profesional con perfiles, mensajería y conexiones.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">chat bot</span>
+                                <span class="project-tag">css</span>
+                                <span class="project-tag">html</span>
+                                <span class="project-tag">js</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="Sistema de gestión de tareas con tablero Kanban y calendario">
+                            <div class="project-links">
+                                <a href="#" title="Ver demo"><i class="fas fa-eye"></i></a>
+                                <a href="#" title="Ver código"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Gestor de Tareas</h3>
+                            <p>Aplicación para gestión de proyectos con tablero Kanban y calendarización.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Angular</span>
+                                <span class="project-tag">NestJS</span>
+                                <span class="project-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn" disabled>
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+        </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    <div class="error" id="nameError">Por favor ingresa tu nombre</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    <div class="error" id="emailError">Por favor ingresa un email válido</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+                    <div class="error" id="subjectError">Por favor ingresa un asunto</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Tu mensaje..." required></textarea>
+                    <div class="error" id="messageError">Por favor escribe tu mensaje</div>
+                </div>
+                
+                <button type="submit" class="submit-btn">
+                    Enviar mensaje
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>ANDRES FELIPE SOTO BOLADO</span>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/FELIPE-a11" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/felipe_soto88/" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+                <p class="copyright">© 2025 ANDRES FELIPE SOTO BOLADO. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
